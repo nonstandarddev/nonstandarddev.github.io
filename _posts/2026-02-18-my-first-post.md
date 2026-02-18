@@ -25,4 +25,9 @@ to the same mind-numbingly menial work over and over again for years to come.
 
 "Perfect Days" then, or "Imperfect Days"? Which one is it? And where are we today?
 
+```python
+def main():
+    pass
+```
+
 
