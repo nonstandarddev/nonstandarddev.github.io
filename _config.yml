@@ -1,0 +1,7 @@
+title: "Non Standard Dev - Personal Blog"
+name: "Johnny"
+description: "Thoughts on systems, programming, and actuarial science (in no particular order)"
+url: "https://nonstandarddev.github.io"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
