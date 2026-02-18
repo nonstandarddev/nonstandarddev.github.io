@@ -9,8 +9,7 @@ I recently took up a subscription to [Mubi](https://mubi.com/en/gb) and had the 
 
 Yes, this is the same man that in recent days implored his fellow filmmakers to ["steer clear of politics"](https://www.theguardian.com/culture/2026/feb/17/javier-bardem-and-tilda-swinton-among-those-to-condemn-berlinales-silence-on-gaza).
 
-Ironic, then, that this film - about a minimum wage service worker who nonetheless appears to be 'content with his lot'
-- does everything in its will to be intensely *apolitical* and instead tries to focus on the 'virtues'
+Ironic, then, that this film (about a minimum wage service worker who nonetheless appears to be 'content with his lot') does everything in its will to be intensely *apolitical* and instead tries to focus on the 'virtues'
 of 'having a routine', 'looking at shadows cast upon the wall in front of you' or 'sticking on
 a classic Van Morrison record on the way to work'.
 
