@@ -4,4 +4,4 @@ title: "About"
 permalink: /about/
 ---
 
-Thoughts on systems, programming, and actuarial science (in no particular order) :sunrise:
+Thoughts on systems, programming, and actuarial science (in no particular order)
