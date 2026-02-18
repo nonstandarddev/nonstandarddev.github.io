@@ -14,10 +14,15 @@ of 'having a routine', 'looking at shadows cast upon the wall in front of you' o
 a classic Van Morrison record on the way to work'.
 
 I did wonder as I watched this film what the average minimum wage worker thought of this slightly
-idealised depiction of what life is like at the bottom. 
+idealised depiction of what life is like at the bottom. To be clear, I am a big fan of the idea that
+human beings ought to be living a more 'present' lifestyle. But my question at the beginning of the film
+remained the same by the end: is Hiroyama (our protagonist) putting on a brave face or is he genuinely 
+happy to be here?
 
 I noted one critic say "Karl Marx never quite understood the elation of listening to a good Beatles
-album on the way to work". True. But he *did* understand the alienation men suffer when subjected
+album on the way to work". That is true. But he *did* understand the alienation human beings suffer when subjected
 to the same mind-numbingly menial work over and over again for years to come.
 
-"Perfect Days" then, or "Imperfect Days"? Which one is it? And where do we land today?
+"Perfect Days" then, or "Imperfect Days"? Which one is it? And where are we today?
+
+
