@@ -1,6 +1,7 @@
 ---
 title: "Imperfect Days"
 date: 2026-02-18
+layout: single
 categories: [ai]
 ---
 
