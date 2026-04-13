@@ -1,0 +1,10 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// Make post body text smaller
+.page__content {
+  font-size: 0.85em;
+}
