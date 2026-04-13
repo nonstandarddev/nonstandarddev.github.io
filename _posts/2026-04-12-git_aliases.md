@@ -39,8 +39,8 @@ git log --all --decorate --oneline --graph
 
 This produces a rather snazzy graphical output like so,
 
-```                                                                                                                                                           
-> git tree                      
+```
+> git tree
 
 * 1a0d232 (HEAD -> dev) Initialised post on git aliases
 * db809eb (origin/main, main) Removed draft post as blog now setup
@@ -78,4 +78,36 @@ To sync your local area with the remote - and delete old references - you can us
 # aliased to 'prune'
 git fetch --all --prune
 ```
+
+## Check Latest Branches
+
+I had a problem the other day: I'd been tasked with cleaning up a messy repository
+which had, of many other concerns, lots and lots of stale branches. But with 20+ branches,
+it can be hard to deduce which ones are 'most relevant'.
+
+That's why I like to have a handy `history` alias which allows you to view information
+across all of your branches *sorted* by date,
+
+```sh
+# aliased to 'history'
+for-each-ref --sort=-authordate --format="%(authordate) - %(refname) - %(authorname)"
+```
+
+Note: when you add this as an alias, you need to escape the quotations with backslash symbols (`\`).
+
+When you run this command, you'll get a nice picture of your repository like so,
+
+```
+> git history
+
+Mon Apr 13 09:14:40 2026 +0100 - refs/heads/main - nonstandarddev
+Mon Apr 13 09:14:40 2026 +0100 - refs/remotes/origin/main - nonstandarddev
+```
+
+Which, for this repository... is ridiculously simple! But you can imagine this command being 
+marginally more useful in a more complex repository with many moving parts!
+
+Another related alias (included above) is `git branches` which is just short for `git branch -va`.
+This shows you all of your branches (including the currently checked out branch) but does not sort
+the output in any particular order.
 
