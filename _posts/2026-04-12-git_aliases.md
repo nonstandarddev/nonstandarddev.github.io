@@ -13,9 +13,9 @@ of my `~/.gitconfig` file),
 
 ```
 [alias]
-	tree = log --all --decorate --oneline --graph
-	prune = fetch --all --prune
-	history = "for-each-ref --sort=-authordate --format=\"%(authordate) - %(refname) - %(authorname)\""
+    tree = log --all --decorate --oneline --graph
+    prune = fetch --all --prune
+    history = "for-each-ref --sort=-authordate --format=\"%(authordate) - %(refname) - %(authorname)\""
     branches = branch -va
 ```
 
@@ -26,11 +26,11 @@ via `git` directly like so,
 git config --global alias.co "checkout"
 ```
 
-## Network Graph
+## Visualise Branch History
 
-Often you may find you'd like to inspect your git history in a graphical manner.
+Oftentimes, I find that I want to *inspect* my history in the form of a network graph.
 
-`git` comes equipped with just the command for that,
+Luckily `git` comes equipped with just the command for that,
 
 ```sh
 # aliased to 'tree'
@@ -39,8 +39,7 @@ git log --all --decorate --oneline --graph
 
 This produces a rather snazzy graphical output like so,
 
-```
-nonstandarddev.github.io/_posts  dev [!?]                                                                                                                                                             
+```                                                                                                                                                           
 > git tree                      
 
 * 1a0d232 (HEAD -> dev) Initialised post on git aliases
@@ -61,5 +60,22 @@ nonstandarddev.github.io/_posts  dev [!?]
 * e76370a Added navigation;
 * fe50cd0 Added first post
 * 5fd7760 Added configuration for blog
+```
+Each line represents a different commit with the prepended hash, any relevant `head` pointers 
+and a summarised commit message.
+
+## Prune 'Deleted' Branches
+
+You may (or may not have, if you are lucky) been in the situation before when the remote GitHub repo
+is 'cleansed' by another developer (e.g. by removing stale branches).
+
+The trouble is, you're sometimes left with the old references dangling in your local area which can make
+your `git branch` output larger than it needs to be (and only adds noise).
+
+To sync your local area with the remote - and delete old references - you can use this command,
+
+```sh
+# aliased to 'prune'
+git fetch --all --prune
 ```
 
