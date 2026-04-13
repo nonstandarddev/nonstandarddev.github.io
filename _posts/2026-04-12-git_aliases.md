@@ -90,7 +90,7 @@ across all of your branches *sorted* by date,
 
 ```sh
 # aliased to 'history'
-for-each-ref --sort=-authordate --format="%(authordate) - %(refname) - %(authorname)"
+git for-each-ref --sort=-authordate --format="%(authordate) - %(refname) - %(authorname)"
 ```
 
 Note: when you add this as an alias, you need to escape the quotations with backslash symbols (`\`).
