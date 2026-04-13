@@ -16,6 +16,7 @@ of my `~/.gitconfig` file),
 	tree = log --all --decorate --oneline --graph
 	prune = fetch --all --prune
 	history = "for-each-ref --sort=-authordate --format=\"%(authordate) - %(refname) - %(authorname)\""
+    branches = branch -va
 ```
 
 As a reminder: to set aliases you can either manually edit the file mentioned above or you can do it 
