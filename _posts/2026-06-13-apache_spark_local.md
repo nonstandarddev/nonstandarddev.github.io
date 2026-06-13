@@ -44,7 +44,7 @@ a one-liner in Python).
 
 Medium sized data which *does* fit on one machine can be treated with modern solutions like DuckDB and/or 
 Polars which is written in Rust. For smaller data still... sure, I *guess you can use Pandas* but the unintuitive syntax
-is enought to drive anyone insane - does anyone actually remember how to aggregate a goddamn dataframe in Pandas *without looking at the docs*? And don't get me started on `.reset_index()`.
+is enough to drive anyone insane - does anyone actually remember how to aggregate a goddamn dataframe in Pandas *without looking at the docs*? And do *not* forget to `.reset_index()` - I'm watching you!
 
 Anyway, back to Spark. The architecture of Spark is surprisingly simple. Observe,
 
