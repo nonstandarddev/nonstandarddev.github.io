@@ -1,8 +1,11 @@
 ---
-title: "Building a standalone Apache Spark cluster (via Docker)"
+title: "Building a standalone Apache Spark cluster"
 date: 2026-06-11
 layout: single
 categories: [software, apache-spark]
+excerpt: >
+  An overview of what Apache Spark *actually is* followed by a practical
+  walkthrough of building a local standalone cluster with Docker Compose
 ---
 
 I recently embarked on the journey of trying to learn Databricks in a little more detail - more
