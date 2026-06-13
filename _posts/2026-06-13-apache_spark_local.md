@@ -40,9 +40,10 @@ my earlier 'bemused' puzzled look at the computer screen when it took Databricks
 a one-liner in Python).
 
 Medium sized data which *does* fit on one machine can be treated with modern solutions like DuckDB and/or 
-Polars which is written in Rust. For smaller data still... sure, I *guess you *can use Pandas* but the utterly forgettable syntax is enough to give anyone nightmares - does anyone actually remember how to aggregate a goddamn dataframe in Pandas *without looking at the docs*? And don't get me started on `.reset_index()`.
+Polars which is written in Rust. For smaller data still... sure, I *guess you can use Pandas* but the unintuitive syntax
+is enought to drive anyone insane - does anyone actually remember how to aggregate a goddamn dataframe in Pandas *without looking at the docs*? And don't get me started on `.reset_index()`.
 
-Anyway, back to Spark. The architecture of Spark is surprisingly simple - here is a diagram I made earlier,
+Anyway, back to Spark. The architecture of Spark is surprisingly simple. Observe,
 
 ![Figure: architectural diagram depicting Apache Spark]({{ "/assets/images/architecture.png" | relative_url }})
 
