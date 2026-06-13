@@ -220,7 +220,7 @@ With all of that admin out of the way, we're almost at the finish line. The fina
 all of these concepts together into a cluster which can be achieved fairly trivially with Docker 
 Compose as below,
 
-```compose
+```yaml
 services:
 
   spark-master:
