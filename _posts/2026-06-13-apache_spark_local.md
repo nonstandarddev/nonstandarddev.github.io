@@ -11,10 +11,13 @@ excerpt: >
 I recently embarked on the journey of trying to learn Databricks in a little more detail - more
 specifically, I'm looking to take the Machine Learning Associate exam at some point.
 
-The trouble is, it's a little hard to define what we *mean* by 'Databricks'. The truth is, 
-Databricks is  an absolutely *massive* data platform which encapsulates a plethora of software frameworks. 
-It's not like learning 'Python' or learning 'R' - think more along the lines of 'learning an 
-*ecosystem* of various packages' that comprise what we now know today as Databricks.
+The trouble is, I've been having trouble defining what I *mean* by 'Databricks'. What *is* Databricks? 
+Seriously: ask the person next to you, then ask someone else later on - you're bound to get different 
+answers (such is the life of those who work in the nebulous field that is 'data').
+
+The truth is, Databricks is an absolutely *massive* data platform which encapsulates a plethora of software frameworks.
+Each of these frameworks focus on a different set of problems. It's not like learning 'Python' or learning 'R' - think more along the lines of 'learning an 
+*ecosystem* of various packages' that comprise what we now know recognise as 'Databricks'.
 
 To be transparent, whilst I do have experience of *using* Databricks to execute Python code,
 I never really understood what exactly was going on under the hood. I distinctly remember firing up 
