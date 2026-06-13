@@ -8,3 +8,12 @@
 .page__content {
   font-size: 0.85em;
 }
+
+// Widen single-post/page content on desktop.
+.page {
+  @include breakpoint($large) {
+    width: 80%;
+    padding-right: 0;
+    padding-inline-end: 0;
+  }
+}

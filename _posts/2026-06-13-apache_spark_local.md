@@ -44,7 +44,7 @@ Polars which is written in Rust. For smaller data still... sure, I *guess you *c
 
 Anyway, back to Spark. The architecture of Spark is surprisingly simple - here is a diagram I made earlier,
 
-![Figure: architectural diagram depicting Apache Spark](../assets/images/architecture.png)
+![Figure: architectural diagram depicting Apache Spark]({{ "/assets/images/architecture.png" | relative_url }})
 
 You can ignore the reference to Docker for now - I'll explain that in a minute. Spark calls the collection of resources on the RHS (i.e. the driver, cluster manager / master and the worker nodes) a *cluster*. Some notes on this,
 
@@ -325,11 +325,11 @@ make run
 At this stage, simply go to your browser and navigate to `localhost:8080` and you _should_ be brought
 to the web UI for your _master_ node as per below,
 
-![Figure: web UI for master node in Spark](../assets/images/spark-master.png)
+![Figure: web UI for master node in Spark]({{ "/assets/images/spark-master.png" | relative_url }})
 
 Similarly, you can access your _history_node by navigating to `localhost:18080` as per below,
 
-![Figure: web UI for history node in Spark](../assets/images/spark-history.png)
+![Figure: web UI for history node in Spark]({{ "/assets/images/spark-history.png" | relative_url }})
 
 ### Executing Spark Jobs
 
@@ -382,4 +382,3 @@ spark-submit \
     "/opt/spark/apps/$script" \
     "$@"
 ```
-
