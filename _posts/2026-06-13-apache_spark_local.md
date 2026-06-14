@@ -8,19 +8,20 @@ excerpt: >
   walkthrough of building a local standalone cluster with Docker Compose
 ---
 
-I recently embarked on the journey of trying to learn Databricks in a little more detail - more
-specifically, I'm looking to take the Machine Learning Associate exam at some point.
+I recently embarked on the journey of trying to 'learn Databricks', primarily because my employer has
+been kind enough to support my journey towards the [Machine Learning Associate](https://www.databricks.com/learn/certification/machine-learning-associate) 
+qualifcation over the next year or so.
 
-The trouble is, I've been having trouble defining what I *mean* by 'Databricks'. What *is* Databricks? 
+The trouble is, I've been having trouble defining what people *mean* by 'Databricks'. What *is* Databricks? 
 Seriously: ask the person next to you, then ask someone else later on - you're bound to get different 
-answers (such is the life of those who work in the nebulous field that is 'data').
+answers (such is the life of those who work in the nebulous field of 'data').
 
-The truth is, Databricks is an absolutely *massive* data platform which encapsulates a plethora of software frameworks.
+The truth is, Databricks is an absolutely *massive* data platform that encapsulates a plethora of software frameworks.
 Each of these frameworks focus on a different set of problems. It's not like learning 'Python' or learning 'R' - think more along the lines of 'learning an 
 *ecosystem* of various packages' that comprise what we now know recognise as 'Databricks'.
 
 To be transparent, whilst I do have experience of *using* Databricks to execute Python code,
-I never really understood what exactly was going on under the hood. I distinctly remember firing up 
+I don't think I ever ever really understood what exactly was going on under the hood. I distinctly remember firing up 
 Databricks for the first time and being completely bemused as to why it took so long to execute 
 such a seemingly simple (small) Python script. 
 
@@ -36,7 +37,7 @@ your soul), you should be somewhat familiar with the concept of a 'software dist
 
 Note well: we're talking *big* data here (i.e. data which cannot reasonably fit on one node). As 
 a rough benchmark: on most modern machines, if you're trying to process datasets which are larger than 
-~ 100GB in pure volume, then you probably want to start considering frameworks like Spark to process 
+~ 100GB in pure volume, then you may want to start considering frameworks like Spark to process 
 them more efficiently. That is, unless you have access to [a HPC](https://en.wikipedia.org/wiki/High-performance_computing), 
 in which case, go wild: you clearly aren't like the rest of us plebs!
 
@@ -47,9 +48,9 @@ a one-liner in Python).
 
 Medium sized data which *does* fit on one machine can be treated with modern solutions like DuckDB and/or 
 Polars which is written in Rust. For smaller data still... sure, I *guess you can use Pandas* but the unintuitive syntax
-is enough to drive anyone insane - does anyone actually remember how to aggregate a goddamn dataframe in Pandas *without looking at the docs*? And do *not* forget to `.reset_index()` - I'm watching you!
+is enough to drive anyone insane - does anyone actually remember how to aggregate a bloomin' dataframe in Pandas *without looking at the docs*? And do *not* forget to `.reset_index()` - I'm watching you!
 
-Anyway, back to Spark. The architecture of Spark is surprisingly simple. Observe,
+Anyway, back to Spark. The architecture of Spark is surprisingly simple:
 
 ![Figure: architectural diagram depicting Apache Spark]({{ "/assets/images/architecture.png" | relative_url }})
 

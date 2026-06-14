@@ -1,6 +1,9 @@
 title: "Non Standard Dev  🌃 🌆"
 name: "Johnny"
-description: "Thoughts on systems, programming, and actuarial science (in no particular order)"
+description: >
+  Thoughts on systems, programming, and actuarial science (in no particular order).
+
+  Views expressed here are __my own__ and do not represent those of [my employer](https://aprllp.com/).
 url: "https://nonstandarddev.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
