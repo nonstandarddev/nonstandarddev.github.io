@@ -10,7 +10,7 @@ excerpt: >
 
 I recently embarked on the journey of trying to 'learn Databricks', primarily because my employer has
 been kind enough to support my journey towards the [Machine Learning Associate](https://www.databricks.com/learn/certification/machine-learning-associate) 
-qualifcation over the next year or so.
+qualification over the next year or so.
 
 The trouble is, I've been having trouble defining what people *mean* by 'Databricks'. What *is* Databricks? 
 Seriously: ask the person next to you, then ask someone else later on - you're bound to get different 
