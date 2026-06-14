@@ -5,7 +5,7 @@ layout: single
 categories: [software, apache-spark]
 excerpt: >
   An overview of what Apache Spark *actually is* followed by a practical
-  walkthrough of building a local standalone cluster with Docker Compose
+  walkthrough of building a local standalone cluster with Docker Compose.
 ---
 
 I recently embarked on the journey of trying to 'learn Databricks', primarily because my employer has
