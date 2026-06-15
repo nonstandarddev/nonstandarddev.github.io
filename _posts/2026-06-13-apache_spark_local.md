@@ -8,8 +8,8 @@ excerpt: >
   walkthrough of building a local standalone cluster with Docker Compose.
 ---
 
-I recently embarked on the journey of trying to 'learn Databricks', primarily because my employer has
-been kind enough to support my journey towards the [Machine Learning Associate](https://www.databricks.com/learn/certification/machine-learning-associate) 
+I recently embarked on the journey of trying to 'learn Databricks', primarily because I'm looking to
+tackle the [Machine Learning Associate](https://www.databricks.com/learn/certification/machine-learning-associate) 
 qualification over the next year or so.
 
 The trouble is, I've been having trouble defining what people *mean* by 'Databricks'. What *is* Databricks? 
