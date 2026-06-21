@@ -37,9 +37,7 @@ your soul), you should be somewhat familiar with the concept of a 'software dist
 
 Note well: we're talking *big* data here (i.e. data which cannot reasonably fit on one node). As 
 a rough benchmark: on most modern machines, if you're trying to process datasets which are larger than 
-~ 100GB in pure volume, then you may want to start considering frameworks like Spark to process 
-them more efficiently. That is, unless you have access to [a HPC](https://en.wikipedia.org/wiki/High-performance_computing), 
-in which case, go wild: you clearly aren't like the rest of us plebs!
+~ 1TB in pure volume, or if your data simply doesn't fit into memory, then you may want to start considering frameworks like Spark to process them more efficiently. That is, unless you have access to [a HPC](https://en.wikipedia.org/wiki/High-performance_computing), in which case, go wild: you clearly aren't like the rest of us!
 
 Anything smaller than 'big', and the benefits of Spark start to diminish. As we'll see shortly, Spark doesn't 
 come for free and there *is* an overhead associated with provisioning services on a cluster (hence
