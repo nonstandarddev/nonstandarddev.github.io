@@ -133,7 +133,7 @@ it has to be rebuilt once again.
 
 To combat this I created a named *volume* to persist the cached jars permanently inside my [`compose.yml`](https://github.com/nonstandarddev/spark/blob/main/compose.yml) file. Here is a schematic below,
 
-```compose
+```yaml
   ...
 
   spark-container:
