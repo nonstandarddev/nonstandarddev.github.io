@@ -45,10 +45,13 @@ Spark but, as part of my foray into the world of Databricks, I've also started l
 [Delta Lake](https://delta.io/).
 
 To understand Delta Lake, you need to understand the problems it was trying to overcome in the first
-place. But, if you're looking for an indepth examination of the subject just read their ['Definitive Guide'](https://delta.io/pdfs/dldg_databricks.pdf) - I'm about a third of the way through this and it's 
-been a brilliant read so far.
+place. Essentially, you know how when you write data to a database like SQL Server or Postgres you're 
+able to rely on [ACID](https://en.wikipedia.org/wiki/ACID) transactional guarantees? Delta Lake basically implements this for blob storage mechanisms like
+S3. There's a lot more to it than that: if you're looking for an indepth examination of the subject 
+just read their ['Definitive Guide'](https://delta.io/pdfs/dldg_databricks.pdf) - I'm about a third 
+of the way through this and it's been a brilliant read so far.
 
-To add Delta Lake features to my cluster, I've had to make a few changes. 
+To add Delta Lake features to my cluster, I've had to make a few changes which I've explained below.
 
 ## Note: `deltalake` vs `delta-spark`
 
