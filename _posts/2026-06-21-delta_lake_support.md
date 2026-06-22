@@ -22,11 +22,7 @@ IT department that is suitably prioritised (by upper management) to deal with al
 
 Like any vendor worth their salt, Databricks are willing to step in and take responsibility for when things go
 wrong. *Unlike* other vendors though, Databricks have given *a lot* back to the community via the development
-of open source technology (and they've done this *from the very start*). 
-
-I have a lot of respect for [Matei Zaharia](https://en.wikipedia.org/wiki/Matei_Zaharia) and what 
-he has done for the wider community at large. I think other SaaS founders could learn a thing or two 
-from Matei. But alas, that is a separate point for another (lengthy) blog post at a future date.
+of open source technology (and they've done this *from the very start*). I have a lot of respect for [Matei Zaharia](https://en.wikipedia.org/wiki/Matei_Zaharia) and what he has done for the wider community at large. But alas, that is a separate point for another (lengthy) blog post at a future date.
 
 All this said, I still maintain that running a standalone cluster has value,
 
